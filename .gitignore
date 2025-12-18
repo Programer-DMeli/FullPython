@@ -1,0 +1,17 @@
+# Entornos virtuales (Muy importante no subirlos)
+venv/
+env/
+ENV/
+.env
+
+# Archivos temporales de Python (Caché)
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de VS Code o IDEs
+.vscode/
+.idea/
+
+# Datos sensibles o variables de entorno
+.env
