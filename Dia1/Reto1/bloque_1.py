@@ -68,10 +68,10 @@ def comparacion_numeros():
         print(f"EL numero mayor es: {b}")
     elif c > a and c > b:
         print(f"El numero mayor es {c}")
-    else:
-        print("Los numeros son iguales")
+    else: 
+        print("Los numeros son iguales") 
 
-def contraseña():
+def contraseña(): 
     print("--Vereficacion de contraseña--")
     password = getpass("Contraseña: ") #-Utilzamos getpass para ocultar el ingreso de la contraseña por la consola 
     if len(password) < 6:

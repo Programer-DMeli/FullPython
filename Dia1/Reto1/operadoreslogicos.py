@@ -71,8 +71,6 @@ while True:
             triangulo_rectangulo(5)
         case 7:
             print("Saliendo del programa")
-            break
-        case _:
-            print("Opción no reconocida. Intenta de nuevo.")
+            break    
 
             
